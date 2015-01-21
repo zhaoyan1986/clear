@@ -1,0 +1,7 @@
+*.swp
+__MACOSX/
+*.zip
+*.DS_Store
+.sass-cache/
+node_modules/
+static/css/
