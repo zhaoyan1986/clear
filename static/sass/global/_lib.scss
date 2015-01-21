@@ -1,0 +1,6 @@
+//ie6 png24
+@mixin bgPng($url) {
+	background-image: url($url);
+	_background-image: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=#{$url},sizingMethod=scale);
+}
